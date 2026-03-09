@@ -5,7 +5,7 @@ main() {
     sleep 2
     clear
 
-    sudo pacman -S --noconfirm python python-pip git curl openssh hyprland kitty waybar rofi sddm thunar nerd-fonts ttf-fira-code fastfetch fish
+    sudo pacman -S --noconfirm swaybg python python-pip git curl openssh hyprland kitty waybar rofi sddm thunar nerd-fonts ttf-fira-code fastfetch fish
     sudo systemctl enable sddm
 
     mkdir -p ~/.config/waybar ~/.config/rofi ~/.config/hypr ~/.config/fish
